@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Grid, MenuItem, Select, TextField } from "@mui/material";
+import { Grid, MenuItem, Select, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 export const SearchBar = (props) => {
@@ -8,7 +8,7 @@ export const SearchBar = (props) => {
   const [regionSelectValue, setRegionSelectValue] = useState("all");
 
   return (
-    <Container fixed>
+    <>
       <Grid
         container
         spacing={2}
@@ -60,6 +60,6 @@ export const SearchBar = (props) => {
           </Select>
         </Grid>
       </Grid>
-    </Container>
+    </>
   );
 };

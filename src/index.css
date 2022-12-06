@@ -17,9 +17,14 @@ h4,
 span,
 p,
 div,
-label {
+label,
+a {
   color: hsl(200, 15%, 8%);
   font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 code {
